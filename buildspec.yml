@@ -5,10 +5,10 @@ env:
     GOOS: darwin
     GOARCH: amd64
   
-    phases:
-      install:
-        commands:
-          - echo "hello from install"
+phases:
+  install:
+    commands:
+      - echo "hello from install"
   
           
       pre_build:
