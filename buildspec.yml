@@ -9,8 +9,7 @@ phases:
   install:
     commands:
       - echo "hello from install"
-  
-    -      
+       
       pre_build:
         commands:
           - echo "hello from pre_build"
